@@ -28,6 +28,7 @@ jobs:
       - name: Run Python Script in Headless Mode
         env:
           GRIZZLY_API_KEY: ${{ secrets.GRIZZLY_API_KEY }}
+          PYTHONUNBUFFERED: "1"
           JIO_MODE: ${{ github.event.inputs.mode || '2' }}
           JIO_SERVICE_CODE: 'jio'
           JIO_COUNTRY_CODE: '22'
