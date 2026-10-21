@@ -33,7 +33,7 @@ jobs:
           JIO_SERVICE_CODE: 'jio'
           JIO_COUNTRY_CODE: '22'
           JIO_MAX_PRICE: '0.208'
-          JIO_MAX_NUMBERS: '5'
+          JIO_MAX_NUMBERS: '0'
           JIO_WAIT_MINS: '0'
           JIO_INTERVAL: '15'
         run: |
